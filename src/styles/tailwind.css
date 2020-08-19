@@ -5938,6 +5938,10 @@ video {
   flex: none;
 }
 
+.flex-2-1 {
+  flex: 0 50%;
+}
+
 .flex-grow-0 {
   flex-grow: 0;
 }
@@ -5952,6 +5956,10 @@ video {
 
 .flex-shrink {
   flex-shrink: 1;
+}
+
+.flex-shrink-1\/2 {
+  flex-shrink: 50%;
 }
 
 .order-1 {
@@ -6238,6 +6246,22 @@ video {
 
 .h-64 {
   height: 16rem;
+}
+
+.h-72 {
+  height: 18rem;
+}
+
+.h-80 {
+  height: 20rem;
+}
+
+.h-88 {
+  height: 22rem;
+}
+
+.h-144 {
+  height: 36rem;
 }
 
 .h-auto {
@@ -7588,12 +7612,20 @@ video {
   min-height: 0;
 }
 
+.min-h-144 {
+  min-height: 36rem;
+}
+
 .min-h-full {
   min-height: 100%;
 }
 
 .min-h-screen {
   min-height: 100vh;
+}
+
+.min-h-almost-screen {
+  min-height: calc(100vh - 6rem);
 }
 
 .min-w-0 {
@@ -13076,6 +13108,13 @@ video {
   left: auto;
 }
 
+.inset-1\/2 {
+  top: 50%;
+  right: 50%;
+  bottom: 50%;
+  left: 50%;
+}
+
 .inset-y-0 {
   top: 0;
   bottom: 0;
@@ -13094,6 +13133,16 @@ video {
 .inset-x-auto {
   right: auto;
   left: auto;
+}
+
+.inset-y-1\/2 {
+  top: 50%;
+  bottom: 50%;
+}
+
+.inset-x-1\/2 {
+  right: 50%;
+  left: 50%;
 }
 
 .top-0 {
@@ -13126,6 +13175,22 @@ video {
 
 .left-auto {
   left: auto;
+}
+
+.top-1\/2 {
+  top: 50%;
+}
+
+.right-1\/2 {
+  right: 50%;
+}
+
+.bottom-1\/2 {
+  bottom: 50%;
+}
+
+.left-1\/2 {
+  left: 50%;
 }
 
 .resize-none {
@@ -16555,6 +16620,136 @@ video {
 }
 
 .focus\:scale-y-150:focus {
+  --transform-scale-y: 1.5;
+}
+
+.group:hover .group-hover\:scale-0 {
+  --transform-scale-x: 0;
+  --transform-scale-y: 0;
+}
+
+.group:hover .group-hover\:scale-50 {
+  --transform-scale-x: .5;
+  --transform-scale-y: .5;
+}
+
+.group:hover .group-hover\:scale-75 {
+  --transform-scale-x: .75;
+  --transform-scale-y: .75;
+}
+
+.group:hover .group-hover\:scale-90 {
+  --transform-scale-x: .9;
+  --transform-scale-y: .9;
+}
+
+.group:hover .group-hover\:scale-95 {
+  --transform-scale-x: .95;
+  --transform-scale-y: .95;
+}
+
+.group:hover .group-hover\:scale-100 {
+  --transform-scale-x: 1;
+  --transform-scale-y: 1;
+}
+
+.group:hover .group-hover\:scale-105 {
+  --transform-scale-x: 1.05;
+  --transform-scale-y: 1.05;
+}
+
+.group:hover .group-hover\:scale-110 {
+  --transform-scale-x: 1.1;
+  --transform-scale-y: 1.1;
+}
+
+.group:hover .group-hover\:scale-125 {
+  --transform-scale-x: 1.25;
+  --transform-scale-y: 1.25;
+}
+
+.group:hover .group-hover\:scale-150 {
+  --transform-scale-x: 1.5;
+  --transform-scale-y: 1.5;
+}
+
+.group:hover .group-hover\:scale-x-0 {
+  --transform-scale-x: 0;
+}
+
+.group:hover .group-hover\:scale-x-50 {
+  --transform-scale-x: .5;
+}
+
+.group:hover .group-hover\:scale-x-75 {
+  --transform-scale-x: .75;
+}
+
+.group:hover .group-hover\:scale-x-90 {
+  --transform-scale-x: .9;
+}
+
+.group:hover .group-hover\:scale-x-95 {
+  --transform-scale-x: .95;
+}
+
+.group:hover .group-hover\:scale-x-100 {
+  --transform-scale-x: 1;
+}
+
+.group:hover .group-hover\:scale-x-105 {
+  --transform-scale-x: 1.05;
+}
+
+.group:hover .group-hover\:scale-x-110 {
+  --transform-scale-x: 1.1;
+}
+
+.group:hover .group-hover\:scale-x-125 {
+  --transform-scale-x: 1.25;
+}
+
+.group:hover .group-hover\:scale-x-150 {
+  --transform-scale-x: 1.5;
+}
+
+.group:hover .group-hover\:scale-y-0 {
+  --transform-scale-y: 0;
+}
+
+.group:hover .group-hover\:scale-y-50 {
+  --transform-scale-y: .5;
+}
+
+.group:hover .group-hover\:scale-y-75 {
+  --transform-scale-y: .75;
+}
+
+.group:hover .group-hover\:scale-y-90 {
+  --transform-scale-y: .9;
+}
+
+.group:hover .group-hover\:scale-y-95 {
+  --transform-scale-y: .95;
+}
+
+.group:hover .group-hover\:scale-y-100 {
+  --transform-scale-y: 1;
+}
+
+.group:hover .group-hover\:scale-y-105 {
+  --transform-scale-y: 1.05;
+}
+
+.group:hover .group-hover\:scale-y-110 {
+  --transform-scale-y: 1.1;
+}
+
+.group:hover .group-hover\:scale-y-125 {
+  --transform-scale-y: 1.25;
+}
+
+.group:hover .group-hover\:scale-y-150 {
   --transform-scale-y: 1.5;
 }
 
@@ -23368,6 +23563,10 @@ video {
     flex: none;
   }
 
+  .sm\:flex-2-1 {
+    flex: 0 50%;
+  }
+
   .sm\:flex-grow-0 {
     flex-grow: 0;
   }
@@ -23382,6 +23581,10 @@ video {
 
   .sm\:flex-shrink {
     flex-shrink: 1;
+  }
+
+  .sm\:flex-shrink-1\/2 {
+    flex-shrink: 50%;
   }
 
   .sm\:order-1 {
@@ -23668,6 +23871,22 @@ video {
 
   .sm\:h-64 {
     height: 16rem;
+  }
+
+  .sm\:h-72 {
+    height: 18rem;
+  }
+
+  .sm\:h-80 {
+    height: 20rem;
+  }
+
+  .sm\:h-88 {
+    height: 22rem;
+  }
+
+  .sm\:h-144 {
+    height: 36rem;
   }
 
   .sm\:h-auto {
@@ -25018,12 +25237,20 @@ video {
     min-height: 0;
   }
 
+  .sm\:min-h-144 {
+    min-height: 36rem;
+  }
+
   .sm\:min-h-full {
     min-height: 100%;
   }
 
   .sm\:min-h-screen {
     min-height: 100vh;
+  }
+
+  .sm\:min-h-almost-screen {
+    min-height: calc(100vh - 6rem);
   }
 
   .sm\:min-w-0 {
@@ -30506,6 +30733,13 @@ video {
     left: auto;
   }
 
+  .sm\:inset-1\/2 {
+    top: 50%;
+    right: 50%;
+    bottom: 50%;
+    left: 50%;
+  }
+
   .sm\:inset-y-0 {
     top: 0;
     bottom: 0;
@@ -30524,6 +30758,16 @@ video {
   .sm\:inset-x-auto {
     right: auto;
     left: auto;
+  }
+
+  .sm\:inset-y-1\/2 {
+    top: 50%;
+    bottom: 50%;
+  }
+
+  .sm\:inset-x-1\/2 {
+    right: 50%;
+    left: 50%;
   }
 
   .sm\:top-0 {
@@ -30556,6 +30800,22 @@ video {
 
   .sm\:left-auto {
     left: auto;
+  }
+
+  .sm\:top-1\/2 {
+    top: 50%;
+  }
+
+  .sm\:right-1\/2 {
+    right: 50%;
+  }
+
+  .sm\:bottom-1\/2 {
+    bottom: 50%;
+  }
+
+  .sm\:left-1\/2 {
+    left: 50%;
   }
 
   .sm\:resize-none {
@@ -33985,6 +34245,136 @@ video {
   }
 
   .sm\:focus\:scale-y-150:focus {
+    --transform-scale-y: 1.5;
+  }
+
+  .group:hover .sm\:group-hover\:scale-0 {
+    --transform-scale-x: 0;
+    --transform-scale-y: 0;
+  }
+
+  .group:hover .sm\:group-hover\:scale-50 {
+    --transform-scale-x: .5;
+    --transform-scale-y: .5;
+  }
+
+  .group:hover .sm\:group-hover\:scale-75 {
+    --transform-scale-x: .75;
+    --transform-scale-y: .75;
+  }
+
+  .group:hover .sm\:group-hover\:scale-90 {
+    --transform-scale-x: .9;
+    --transform-scale-y: .9;
+  }
+
+  .group:hover .sm\:group-hover\:scale-95 {
+    --transform-scale-x: .95;
+    --transform-scale-y: .95;
+  }
+
+  .group:hover .sm\:group-hover\:scale-100 {
+    --transform-scale-x: 1;
+    --transform-scale-y: 1;
+  }
+
+  .group:hover .sm\:group-hover\:scale-105 {
+    --transform-scale-x: 1.05;
+    --transform-scale-y: 1.05;
+  }
+
+  .group:hover .sm\:group-hover\:scale-110 {
+    --transform-scale-x: 1.1;
+    --transform-scale-y: 1.1;
+  }
+
+  .group:hover .sm\:group-hover\:scale-125 {
+    --transform-scale-x: 1.25;
+    --transform-scale-y: 1.25;
+  }
+
+  .group:hover .sm\:group-hover\:scale-150 {
+    --transform-scale-x: 1.5;
+    --transform-scale-y: 1.5;
+  }
+
+  .group:hover .sm\:group-hover\:scale-x-0 {
+    --transform-scale-x: 0;
+  }
+
+  .group:hover .sm\:group-hover\:scale-x-50 {
+    --transform-scale-x: .5;
+  }
+
+  .group:hover .sm\:group-hover\:scale-x-75 {
+    --transform-scale-x: .75;
+  }
+
+  .group:hover .sm\:group-hover\:scale-x-90 {
+    --transform-scale-x: .9;
+  }
+
+  .group:hover .sm\:group-hover\:scale-x-95 {
+    --transform-scale-x: .95;
+  }
+
+  .group:hover .sm\:group-hover\:scale-x-100 {
+    --transform-scale-x: 1;
+  }
+
+  .group:hover .sm\:group-hover\:scale-x-105 {
+    --transform-scale-x: 1.05;
+  }
+
+  .group:hover .sm\:group-hover\:scale-x-110 {
+    --transform-scale-x: 1.1;
+  }
+
+  .group:hover .sm\:group-hover\:scale-x-125 {
+    --transform-scale-x: 1.25;
+  }
+
+  .group:hover .sm\:group-hover\:scale-x-150 {
+    --transform-scale-x: 1.5;
+  }
+
+  .group:hover .sm\:group-hover\:scale-y-0 {
+    --transform-scale-y: 0;
+  }
+
+  .group:hover .sm\:group-hover\:scale-y-50 {
+    --transform-scale-y: .5;
+  }
+
+  .group:hover .sm\:group-hover\:scale-y-75 {
+    --transform-scale-y: .75;
+  }
+
+  .group:hover .sm\:group-hover\:scale-y-90 {
+    --transform-scale-y: .9;
+  }
+
+  .group:hover .sm\:group-hover\:scale-y-95 {
+    --transform-scale-y: .95;
+  }
+
+  .group:hover .sm\:group-hover\:scale-y-100 {
+    --transform-scale-y: 1;
+  }
+
+  .group:hover .sm\:group-hover\:scale-y-105 {
+    --transform-scale-y: 1.05;
+  }
+
+  .group:hover .sm\:group-hover\:scale-y-110 {
+    --transform-scale-y: 1.1;
+  }
+
+  .group:hover .sm\:group-hover\:scale-y-125 {
+    --transform-scale-y: 1.25;
+  }
+
+  .group:hover .sm\:group-hover\:scale-y-150 {
     --transform-scale-y: 1.5;
   }
 
@@ -40707,6 +41097,10 @@ video {
     flex: none;
   }
 
+  .md\:flex-2-1 {
+    flex: 0 50%;
+  }
+
   .md\:flex-grow-0 {
     flex-grow: 0;
   }
@@ -40721,6 +41115,10 @@ video {
 
   .md\:flex-shrink {
     flex-shrink: 1;
+  }
+
+  .md\:flex-shrink-1\/2 {
+    flex-shrink: 50%;
   }
 
   .md\:order-1 {
@@ -41007,6 +41405,22 @@ video {
 
   .md\:h-64 {
     height: 16rem;
+  }
+
+  .md\:h-72 {
+    height: 18rem;
+  }
+
+  .md\:h-80 {
+    height: 20rem;
+  }
+
+  .md\:h-88 {
+    height: 22rem;
+  }
+
+  .md\:h-144 {
+    height: 36rem;
   }
 
   .md\:h-auto {
@@ -42357,12 +42771,20 @@ video {
     min-height: 0;
   }
 
+  .md\:min-h-144 {
+    min-height: 36rem;
+  }
+
   .md\:min-h-full {
     min-height: 100%;
   }
 
   .md\:min-h-screen {
     min-height: 100vh;
+  }
+
+  .md\:min-h-almost-screen {
+    min-height: calc(100vh - 6rem);
   }
 
   .md\:min-w-0 {
@@ -47845,6 +48267,13 @@ video {
     left: auto;
   }
 
+  .md\:inset-1\/2 {
+    top: 50%;
+    right: 50%;
+    bottom: 50%;
+    left: 50%;
+  }
+
   .md\:inset-y-0 {
     top: 0;
     bottom: 0;
@@ -47863,6 +48292,16 @@ video {
   .md\:inset-x-auto {
     right: auto;
     left: auto;
+  }
+
+  .md\:inset-y-1\/2 {
+    top: 50%;
+    bottom: 50%;
+  }
+
+  .md\:inset-x-1\/2 {
+    right: 50%;
+    left: 50%;
   }
 
   .md\:top-0 {
@@ -47895,6 +48334,22 @@ video {
 
   .md\:left-auto {
     left: auto;
+  }
+
+  .md\:top-1\/2 {
+    top: 50%;
+  }
+
+  .md\:right-1\/2 {
+    right: 50%;
+  }
+
+  .md\:bottom-1\/2 {
+    bottom: 50%;
+  }
+
+  .md\:left-1\/2 {
+    left: 50%;
   }
 
   .md\:resize-none {
@@ -51324,6 +51779,136 @@ video {
   }
 
   .md\:focus\:scale-y-150:focus {
+    --transform-scale-y: 1.5;
+  }
+
+  .group:hover .md\:group-hover\:scale-0 {
+    --transform-scale-x: 0;
+    --transform-scale-y: 0;
+  }
+
+  .group:hover .md\:group-hover\:scale-50 {
+    --transform-scale-x: .5;
+    --transform-scale-y: .5;
+  }
+
+  .group:hover .md\:group-hover\:scale-75 {
+    --transform-scale-x: .75;
+    --transform-scale-y: .75;
+  }
+
+  .group:hover .md\:group-hover\:scale-90 {
+    --transform-scale-x: .9;
+    --transform-scale-y: .9;
+  }
+
+  .group:hover .md\:group-hover\:scale-95 {
+    --transform-scale-x: .95;
+    --transform-scale-y: .95;
+  }
+
+  .group:hover .md\:group-hover\:scale-100 {
+    --transform-scale-x: 1;
+    --transform-scale-y: 1;
+  }
+
+  .group:hover .md\:group-hover\:scale-105 {
+    --transform-scale-x: 1.05;
+    --transform-scale-y: 1.05;
+  }
+
+  .group:hover .md\:group-hover\:scale-110 {
+    --transform-scale-x: 1.1;
+    --transform-scale-y: 1.1;
+  }
+
+  .group:hover .md\:group-hover\:scale-125 {
+    --transform-scale-x: 1.25;
+    --transform-scale-y: 1.25;
+  }
+
+  .group:hover .md\:group-hover\:scale-150 {
+    --transform-scale-x: 1.5;
+    --transform-scale-y: 1.5;
+  }
+
+  .group:hover .md\:group-hover\:scale-x-0 {
+    --transform-scale-x: 0;
+  }
+
+  .group:hover .md\:group-hover\:scale-x-50 {
+    --transform-scale-x: .5;
+  }
+
+  .group:hover .md\:group-hover\:scale-x-75 {
+    --transform-scale-x: .75;
+  }
+
+  .group:hover .md\:group-hover\:scale-x-90 {
+    --transform-scale-x: .9;
+  }
+
+  .group:hover .md\:group-hover\:scale-x-95 {
+    --transform-scale-x: .95;
+  }
+
+  .group:hover .md\:group-hover\:scale-x-100 {
+    --transform-scale-x: 1;
+  }
+
+  .group:hover .md\:group-hover\:scale-x-105 {
+    --transform-scale-x: 1.05;
+  }
+
+  .group:hover .md\:group-hover\:scale-x-110 {
+    --transform-scale-x: 1.1;
+  }
+
+  .group:hover .md\:group-hover\:scale-x-125 {
+    --transform-scale-x: 1.25;
+  }
+
+  .group:hover .md\:group-hover\:scale-x-150 {
+    --transform-scale-x: 1.5;
+  }
+
+  .group:hover .md\:group-hover\:scale-y-0 {
+    --transform-scale-y: 0;
+  }
+
+  .group:hover .md\:group-hover\:scale-y-50 {
+    --transform-scale-y: .5;
+  }
+
+  .group:hover .md\:group-hover\:scale-y-75 {
+    --transform-scale-y: .75;
+  }
+
+  .group:hover .md\:group-hover\:scale-y-90 {
+    --transform-scale-y: .9;
+  }
+
+  .group:hover .md\:group-hover\:scale-y-95 {
+    --transform-scale-y: .95;
+  }
+
+  .group:hover .md\:group-hover\:scale-y-100 {
+    --transform-scale-y: 1;
+  }
+
+  .group:hover .md\:group-hover\:scale-y-105 {
+    --transform-scale-y: 1.05;
+  }
+
+  .group:hover .md\:group-hover\:scale-y-110 {
+    --transform-scale-y: 1.1;
+  }
+
+  .group:hover .md\:group-hover\:scale-y-125 {
+    --transform-scale-y: 1.25;
+  }
+
+  .group:hover .md\:group-hover\:scale-y-150 {
     --transform-scale-y: 1.5;
   }
 
@@ -58046,6 +58631,10 @@ video {
     flex: none;
   }
 
+  .lg\:flex-2-1 {
+    flex: 0 50%;
+  }
+
   .lg\:flex-grow-0 {
     flex-grow: 0;
   }
@@ -58060,6 +58649,10 @@ video {
 
   .lg\:flex-shrink {
     flex-shrink: 1;
+  }
+
+  .lg\:flex-shrink-1\/2 {
+    flex-shrink: 50%;
   }
 
   .lg\:order-1 {
@@ -58346,6 +58939,22 @@ video {
 
   .lg\:h-64 {
     height: 16rem;
+  }
+
+  .lg\:h-72 {
+    height: 18rem;
+  }
+
+  .lg\:h-80 {
+    height: 20rem;
+  }
+
+  .lg\:h-88 {
+    height: 22rem;
+  }
+
+  .lg\:h-144 {
+    height: 36rem;
   }
 
   .lg\:h-auto {
@@ -59696,12 +60305,20 @@ video {
     min-height: 0;
   }
 
+  .lg\:min-h-144 {
+    min-height: 36rem;
+  }
+
   .lg\:min-h-full {
     min-height: 100%;
   }
 
   .lg\:min-h-screen {
     min-height: 100vh;
+  }
+
+  .lg\:min-h-almost-screen {
+    min-height: calc(100vh - 6rem);
   }
 
   .lg\:min-w-0 {
@@ -65184,6 +65801,13 @@ video {
     left: auto;
   }
 
+  .lg\:inset-1\/2 {
+    top: 50%;
+    right: 50%;
+    bottom: 50%;
+    left: 50%;
+  }
+
   .lg\:inset-y-0 {
     top: 0;
     bottom: 0;
@@ -65202,6 +65826,16 @@ video {
   .lg\:inset-x-auto {
     right: auto;
     left: auto;
+  }
+
+  .lg\:inset-y-1\/2 {
+    top: 50%;
+    bottom: 50%;
+  }
+
+  .lg\:inset-x-1\/2 {
+    right: 50%;
+    left: 50%;
   }
 
   .lg\:top-0 {
@@ -65234,6 +65868,22 @@ video {
 
   .lg\:left-auto {
     left: auto;
+  }
+
+  .lg\:top-1\/2 {
+    top: 50%;
+  }
+
+  .lg\:right-1\/2 {
+    right: 50%;
+  }
+
+  .lg\:bottom-1\/2 {
+    bottom: 50%;
+  }
+
+  .lg\:left-1\/2 {
+    left: 50%;
   }
 
   .lg\:resize-none {
@@ -68663,6 +69313,136 @@ video {
   }
 
   .lg\:focus\:scale-y-150:focus {
+    --transform-scale-y: 1.5;
+  }
+
+  .group:hover .lg\:group-hover\:scale-0 {
+    --transform-scale-x: 0;
+    --transform-scale-y: 0;
+  }
+
+  .group:hover .lg\:group-hover\:scale-50 {
+    --transform-scale-x: .5;
+    --transform-scale-y: .5;
+  }
+
+  .group:hover .lg\:group-hover\:scale-75 {
+    --transform-scale-x: .75;
+    --transform-scale-y: .75;
+  }
+
+  .group:hover .lg\:group-hover\:scale-90 {
+    --transform-scale-x: .9;
+    --transform-scale-y: .9;
+  }
+
+  .group:hover .lg\:group-hover\:scale-95 {
+    --transform-scale-x: .95;
+    --transform-scale-y: .95;
+  }
+
+  .group:hover .lg\:group-hover\:scale-100 {
+    --transform-scale-x: 1;
+    --transform-scale-y: 1;
+  }
+
+  .group:hover .lg\:group-hover\:scale-105 {
+    --transform-scale-x: 1.05;
+    --transform-scale-y: 1.05;
+  }
+
+  .group:hover .lg\:group-hover\:scale-110 {
+    --transform-scale-x: 1.1;
+    --transform-scale-y: 1.1;
+  }
+
+  .group:hover .lg\:group-hover\:scale-125 {
+    --transform-scale-x: 1.25;
+    --transform-scale-y: 1.25;
+  }
+
+  .group:hover .lg\:group-hover\:scale-150 {
+    --transform-scale-x: 1.5;
+    --transform-scale-y: 1.5;
+  }
+
+  .group:hover .lg\:group-hover\:scale-x-0 {
+    --transform-scale-x: 0;
+  }
+
+  .group:hover .lg\:group-hover\:scale-x-50 {
+    --transform-scale-x: .5;
+  }
+
+  .group:hover .lg\:group-hover\:scale-x-75 {
+    --transform-scale-x: .75;
+  }
+
+  .group:hover .lg\:group-hover\:scale-x-90 {
+    --transform-scale-x: .9;
+  }
+
+  .group:hover .lg\:group-hover\:scale-x-95 {
+    --transform-scale-x: .95;
+  }
+
+  .group:hover .lg\:group-hover\:scale-x-100 {
+    --transform-scale-x: 1;
+  }
+
+  .group:hover .lg\:group-hover\:scale-x-105 {
+    --transform-scale-x: 1.05;
+  }
+
+  .group:hover .lg\:group-hover\:scale-x-110 {
+    --transform-scale-x: 1.1;
+  }
+
+  .group:hover .lg\:group-hover\:scale-x-125 {
+    --transform-scale-x: 1.25;
+  }
+
+  .group:hover .lg\:group-hover\:scale-x-150 {
+    --transform-scale-x: 1.5;
+  }
+
+  .group:hover .lg\:group-hover\:scale-y-0 {
+    --transform-scale-y: 0;
+  }
+
+  .group:hover .lg\:group-hover\:scale-y-50 {
+    --transform-scale-y: .5;
+  }
+
+  .group:hover .lg\:group-hover\:scale-y-75 {
+    --transform-scale-y: .75;
+  }
+
+  .group:hover .lg\:group-hover\:scale-y-90 {
+    --transform-scale-y: .9;
+  }
+
+  .group:hover .lg\:group-hover\:scale-y-95 {
+    --transform-scale-y: .95;
+  }
+
+  .group:hover .lg\:group-hover\:scale-y-100 {
+    --transform-scale-y: 1;
+  }
+
+  .group:hover .lg\:group-hover\:scale-y-105 {
+    --transform-scale-y: 1.05;
+  }
+
+  .group:hover .lg\:group-hover\:scale-y-110 {
+    --transform-scale-y: 1.1;
+  }
+
+  .group:hover .lg\:group-hover\:scale-y-125 {
+    --transform-scale-y: 1.25;
+  }
+
+  .group:hover .lg\:group-hover\:scale-y-150 {
     --transform-scale-y: 1.5;
   }
 
@@ -75385,6 +76165,10 @@ video {
     flex: none;
   }
 
+  .xl\:flex-2-1 {
+    flex: 0 50%;
+  }
+
   .xl\:flex-grow-0 {
     flex-grow: 0;
   }
@@ -75399,6 +76183,10 @@ video {
 
   .xl\:flex-shrink {
     flex-shrink: 1;
+  }
+
+  .xl\:flex-shrink-1\/2 {
+    flex-shrink: 50%;
   }
 
   .xl\:order-1 {
@@ -75685,6 +76473,22 @@ video {
 
   .xl\:h-64 {
     height: 16rem;
+  }
+
+  .xl\:h-72 {
+    height: 18rem;
+  }
+
+  .xl\:h-80 {
+    height: 20rem;
+  }
+
+  .xl\:h-88 {
+    height: 22rem;
+  }
+
+  .xl\:h-144 {
+    height: 36rem;
   }
 
   .xl\:h-auto {
@@ -77035,12 +77839,20 @@ video {
     min-height: 0;
   }
 
+  .xl\:min-h-144 {
+    min-height: 36rem;
+  }
+
   .xl\:min-h-full {
     min-height: 100%;
   }
 
   .xl\:min-h-screen {
     min-height: 100vh;
+  }
+
+  .xl\:min-h-almost-screen {
+    min-height: calc(100vh - 6rem);
   }
 
   .xl\:min-w-0 {
@@ -82523,6 +83335,13 @@ video {
     left: auto;
   }
 
+  .xl\:inset-1\/2 {
+    top: 50%;
+    right: 50%;
+    bottom: 50%;
+    left: 50%;
+  }
+
   .xl\:inset-y-0 {
     top: 0;
     bottom: 0;
@@ -82541,6 +83360,16 @@ video {
   .xl\:inset-x-auto {
     right: auto;
     left: auto;
+  }
+
+  .xl\:inset-y-1\/2 {
+    top: 50%;
+    bottom: 50%;
+  }
+
+  .xl\:inset-x-1\/2 {
+    right: 50%;
+    left: 50%;
   }
 
   .xl\:top-0 {
@@ -82573,6 +83402,22 @@ video {
 
   .xl\:left-auto {
     left: auto;
+  }
+
+  .xl\:top-1\/2 {
+    top: 50%;
+  }
+
+  .xl\:right-1\/2 {
+    right: 50%;
+  }
+
+  .xl\:bottom-1\/2 {
+    bottom: 50%;
+  }
+
+  .xl\:left-1\/2 {
+    left: 50%;
   }
 
   .xl\:resize-none {
@@ -86002,6 +86847,136 @@ video {
   }
 
   .xl\:focus\:scale-y-150:focus {
+    --transform-scale-y: 1.5;
+  }
+
+  .group:hover .xl\:group-hover\:scale-0 {
+    --transform-scale-x: 0;
+    --transform-scale-y: 0;
+  }
+
+  .group:hover .xl\:group-hover\:scale-50 {
+    --transform-scale-x: .5;
+    --transform-scale-y: .5;
+  }
+
+  .group:hover .xl\:group-hover\:scale-75 {
+    --transform-scale-x: .75;
+    --transform-scale-y: .75;
+  }
+
+  .group:hover .xl\:group-hover\:scale-90 {
+    --transform-scale-x: .9;
+    --transform-scale-y: .9;
+  }
+
+  .group:hover .xl\:group-hover\:scale-95 {
+    --transform-scale-x: .95;
+    --transform-scale-y: .95;
+  }
+
+  .group:hover .xl\:group-hover\:scale-100 {
+    --transform-scale-x: 1;
+    --transform-scale-y: 1;
+  }
+
+  .group:hover .xl\:group-hover\:scale-105 {
+    --transform-scale-x: 1.05;
+    --transform-scale-y: 1.05;
+  }
+
+  .group:hover .xl\:group-hover\:scale-110 {
+    --transform-scale-x: 1.1;
+    --transform-scale-y: 1.1;
+  }
+
+  .group:hover .xl\:group-hover\:scale-125 {
+    --transform-scale-x: 1.25;
+    --transform-scale-y: 1.25;
+  }
+
+  .group:hover .xl\:group-hover\:scale-150 {
+    --transform-scale-x: 1.5;
+    --transform-scale-y: 1.5;
+  }
+
+  .group:hover .xl\:group-hover\:scale-x-0 {
+    --transform-scale-x: 0;
+  }
+
+  .group:hover .xl\:group-hover\:scale-x-50 {
+    --transform-scale-x: .5;
+  }
+
+  .group:hover .xl\:group-hover\:scale-x-75 {
+    --transform-scale-x: .75;
+  }
+
+  .group:hover .xl\:group-hover\:scale-x-90 {
+    --transform-scale-x: .9;
+  }
+
+  .group:hover .xl\:group-hover\:scale-x-95 {
+    --transform-scale-x: .95;
+  }
+
+  .group:hover .xl\:group-hover\:scale-x-100 {
+    --transform-scale-x: 1;
+  }
+
+  .group:hover .xl\:group-hover\:scale-x-105 {
+    --transform-scale-x: 1.05;
+  }
+
+  .group:hover .xl\:group-hover\:scale-x-110 {
+    --transform-scale-x: 1.1;
+  }
+
+  .group:hover .xl\:group-hover\:scale-x-125 {
+    --transform-scale-x: 1.25;
+  }
+
+  .group:hover .xl\:group-hover\:scale-x-150 {
+    --transform-scale-x: 1.5;
+  }
+
+  .group:hover .xl\:group-hover\:scale-y-0 {
+    --transform-scale-y: 0;
+  }
+
+  .group:hover .xl\:group-hover\:scale-y-50 {
+    --transform-scale-y: .5;
+  }
+
+  .group:hover .xl\:group-hover\:scale-y-75 {
+    --transform-scale-y: .75;
+  }
+
+  .group:hover .xl\:group-hover\:scale-y-90 {
+    --transform-scale-y: .9;
+  }
+
+  .group:hover .xl\:group-hover\:scale-y-95 {
+    --transform-scale-y: .95;
+  }
+
+  .group:hover .xl\:group-hover\:scale-y-100 {
+    --transform-scale-y: 1;
+  }
+
+  .group:hover .xl\:group-hover\:scale-y-105 {
+    --transform-scale-y: 1.05;
+  }
+
+  .group:hover .xl\:group-hover\:scale-y-110 {
+    --transform-scale-y: 1.1;
+  }
+
+  .group:hover .xl\:group-hover\:scale-y-125 {
+    --transform-scale-y: 1.25;
+  }
+
+  .group:hover .xl\:group-hover\:scale-y-150 {
     --transform-scale-y: 1.5;
   }
 
