@@ -1,5 +1,5 @@
 import React from 'react';
-import BadlandsImage from 'assets/badlands.png';
+import BadlandsImage from 'assets/badlands.jp2';
 
 const CategoryCard = () => {
 	return (
