@@ -31,6 +31,7 @@ const Navbar = () => {
 				<div className='md:hidden'>
 					<button onClick={() => toggleSidebar()}>
 						<HamburgerMenu />
+						<p className='sr-only'>Sidebar button</p>
 					</button>
 				</div>
 				<div className='md:flex justify-center items-center hidden'>
@@ -40,9 +41,11 @@ const Navbar = () => {
 					<button className='border-none ml-6 text-gray-800'>Login</button>
 					<button className='ml-4 focus:outline-none focus:shadow-outline'>
 						<Cart />
+						<p className='sr-only'>Cart</p>
 					</button>
 					<button className='ml-4 focus:outline-none focus:shadow-outline'>
 						<Heart />
+						<p className='sr-only'>favorite products</p>
 					</button>
 				</div>
 				{isSidebarOpen && (
