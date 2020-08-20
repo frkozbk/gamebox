@@ -3,10 +3,8 @@ import PropTypes from 'prop-types';
 import useBodyLock from 'hooks/useBodyLock';
 import useOnClickOutside from 'hooks/useOutsideClick';
 import Close from 'components/Icons/Close';
-import { useSpring, animated } from 'react-spring';
 
 const Sidebar = ({ toggleSidebarFn }) => {
-	const animationProps = useSpring({ width: 100, from: 0 });
 	const ref = useRef();
 	useOnClickOutside(ref, () => toggleSidebarFn());
 	useBodyLock();

@@ -1,5 +1,5 @@
 import React from 'react';
-import CategoryCard from '../components/LandingPage/CategoryCard';
+import CategoryCard from 'components/LandingPage/CategoryCard';
 
 const LandingPage = () => {
 	return (

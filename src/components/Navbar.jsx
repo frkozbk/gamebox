@@ -2,9 +2,9 @@ import React from 'react';
 import GameIcon from 'components/Icons/GameIcon';
 import Cart from 'components/Icons/Cart';
 import Heart from 'components/Icons/Heart';
-import HamburgerMenu from './Icons/HamburgerMenu';
+import HamburgerMenu from 'components/Icons/HamburgerMenu';
 import { Portal } from 'react-portal';
-import Sidebar from './common/Sidebar';
+import Sidebar from 'components/common/Sidebar';
 
 const Navbar = () => {
 	const [isSidebarOpen, setIsSidebarOpen] = React.useState(false);
