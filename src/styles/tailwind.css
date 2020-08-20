@@ -15378,6 +15378,14 @@ video {
   width: 16rem;
 }
 
+.w-72 {
+  width: 18rem;
+}
+
+.w-80 {
+  width: 20rem;
+}
+
 .w-auto {
   width: auto;
 }
@@ -18189,6 +18197,26 @@ video {
   }
 }
 
+@-webkit-keyframes fadeInRight {
+  0% {
+    transform: translateX(20rem);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeInRight {
+  0% {
+    transform: translateX(20rem);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
 .animate-none {
   -webkit-animation: none;
           animation: none;
@@ -18212,6 +18240,11 @@ video {
 .animate-bounce {
   -webkit-animation: bounce 1s infinite;
           animation: bounce 1s infinite;
+}
+
+.animate-fadeInRight {
+  -webkit-animation: fadeInRight 0.5s ease-in-out;
+          animation: fadeInRight 0.5s ease-in-out;
 }
 
 @media (min-width: 640px) {
@@ -33003,6 +33036,14 @@ video {
     width: 16rem;
   }
 
+  .sm\:w-72 {
+    width: 18rem;
+  }
+
+  .sm\:w-80 {
+    width: 20rem;
+  }
+
   .sm\:w-auto {
     width: auto;
   }
@@ -35745,6 +35786,11 @@ video {
   .sm\:animate-bounce {
     -webkit-animation: bounce 1s infinite;
             animation: bounce 1s infinite;
+  }
+
+  .sm\:animate-fadeInRight {
+    -webkit-animation: fadeInRight 0.5s ease-in-out;
+            animation: fadeInRight 0.5s ease-in-out;
   }
 }
 
@@ -50537,6 +50583,14 @@ video {
     width: 16rem;
   }
 
+  .md\:w-72 {
+    width: 18rem;
+  }
+
+  .md\:w-80 {
+    width: 20rem;
+  }
+
   .md\:w-auto {
     width: auto;
   }
@@ -53279,6 +53333,11 @@ video {
   .md\:animate-bounce {
     -webkit-animation: bounce 1s infinite;
             animation: bounce 1s infinite;
+  }
+
+  .md\:animate-fadeInRight {
+    -webkit-animation: fadeInRight 0.5s ease-in-out;
+            animation: fadeInRight 0.5s ease-in-out;
   }
 }
 
@@ -68071,6 +68130,14 @@ video {
     width: 16rem;
   }
 
+  .lg\:w-72 {
+    width: 18rem;
+  }
+
+  .lg\:w-80 {
+    width: 20rem;
+  }
+
   .lg\:w-auto {
     width: auto;
   }
@@ -70813,6 +70880,11 @@ video {
   .lg\:animate-bounce {
     -webkit-animation: bounce 1s infinite;
             animation: bounce 1s infinite;
+  }
+
+  .lg\:animate-fadeInRight {
+    -webkit-animation: fadeInRight 0.5s ease-in-out;
+            animation: fadeInRight 0.5s ease-in-out;
   }
 }
 
@@ -85605,6 +85677,14 @@ video {
     width: 16rem;
   }
 
+  .xl\:w-72 {
+    width: 18rem;
+  }
+
+  .xl\:w-80 {
+    width: 20rem;
+  }
+
   .xl\:w-auto {
     width: auto;
   }
@@ -88347,5 +88427,10 @@ video {
   .xl\:animate-bounce {
     -webkit-animation: bounce 1s infinite;
             animation: bounce 1s infinite;
+  }
+
+  .xl\:animate-fadeInRight {
+    -webkit-animation: fadeInRight 0.5s ease-in-out;
+            animation: fadeInRight 0.5s ease-in-out;
   }
 }

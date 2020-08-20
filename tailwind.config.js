@@ -1,5 +1,5 @@
 module.exports = {
-	purge: [],
+	purge: ['./src/**/*.html', './src/**/*.js', './src/**/*.jsx'],
 	theme: {
 		extend: {
 			inset: {
@@ -23,6 +23,19 @@ module.exports = {
 			},
 			screen: {
 				'2xl': '1400px',
+			},
+			width: {
+				72: '18rem',
+				80: '20rem',
+			},
+			animation: {
+				fadeInRight: 'fadeInRight 0.5s ease-in-out',
+			},
+			keyframes: {
+				fadeInRight: {
+					'0%': { transform: 'translateX(20rem)' },
+					'100%': { transform: 'translateX(0)' },
+				},
 			},
 		},
 	},
