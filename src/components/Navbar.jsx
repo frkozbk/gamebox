@@ -28,7 +28,7 @@ const Navbar = () => {
 						className=' w-full h-12 focus:outline-none border-gray-500 border-2 rounded-full pl-5 focus:border-purple-800 focus:shadow-outline focus:shadow-primary-100-sm'
 					/>
 				</div>
-				<div className='md:hidden'>
+				<div className='md:hidden h-12 flex justify-center items-center'>
 					<button onClick={() => toggleSidebar()}>
 						<HamburgerMenu />
 						<p className='sr-only'>Sidebar button</p>
@@ -48,11 +48,7 @@ const Navbar = () => {
 						<p className='sr-only'>favorite products</p>
 					</button>
 				</div>
-				{isSidebarOpen && (
-					<Portal node={document && document.getElementById('root')}>
-						<Sidebar toggleSidebarFn={toggleSidebar} />
-					</Portal>
-				)}
+				{isSidebarOpen && <Sidebar toggleSidebarFn={toggleSidebar} />}
 			</div>
 		</nav>
 	);

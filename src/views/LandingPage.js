@@ -27,6 +27,11 @@ const LandingPage = () => {
 					</div>
 				</div>
 				<h4 className='text-blue-900 text-3xl tracking-wide font-bold'>Our Products</h4>
+				<div className='w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-3'>
+					<div className='w-full h-72 max-w-sm bg-white border-gray-100 border-2 p-2 rounded-lg'>
+						<div className='w-full h-64 rounded-lg bg-red-400'></div>
+					</div>
+				</div>
 			</div>
 		</main>
 	);
