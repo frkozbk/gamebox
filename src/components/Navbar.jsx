@@ -3,7 +3,6 @@ import GameIcon from 'components/Icons/GameIcon';
 import Cart from 'components/Icons/Cart';
 import Heart from 'components/Icons/Heart';
 import HamburgerMenu from 'components/Icons/HamburgerMenu';
-import { Portal } from 'react-portal';
 import Sidebar from 'components/common/Sidebar';
 
 const Navbar = () => {
