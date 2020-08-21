@@ -39,8 +39,6 @@ module.exports = {
 			},
 		},
 	},
-	variants: {
-		scale: ['responsive', 'hover', 'focus', 'group-hover'],
-	},
+	variants: ['responsive', 'hover', 'focus', 'group-hover'],
 	plugins: [],
 };
